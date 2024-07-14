@@ -12,7 +12,7 @@ In this project, a release script is created to copy certain files from a source
 4. **Split the Version String**: The first line is split into an array to extract the version number.
 5. **User Confirmation**: The user is prompted to confirm if they want to continue with the build process.
 6. **Conditional Execution**: Based on the user's input, the script either continues or exits.
-7. **Copy Files**: The script iterates over all files in the source directory. It copies all files except `secretinfo.md` to the build directory, informing the user about each action.
+7. **Copy Files**: The script iterates over all files in the source directory. It copies all files except `secret.md` to the build directory, informing the user about each action.
 8. **List Build Directory**: The script changes to the build directory, lists its contents, and then changes back to the original directory. It notifies the user about the contents of the build directory, referencing the version.
 
 ## Conclusion
