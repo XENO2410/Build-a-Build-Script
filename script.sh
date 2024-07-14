@@ -33,7 +33,7 @@ fi
 
 # Additional Ideas
 #
-# if [ "$filename" == "source/secretinfo.md" ]
+# if [ "$filename" == "source/secret.md" ]
 # then
 #   echo "Not copying $filename"
 #  sed 's/42/XX/g' $filename > build/secretinfo.md
